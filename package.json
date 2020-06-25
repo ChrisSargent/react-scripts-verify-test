@@ -1,0 +1,16 @@
+{
+  "name": "react-scripts-test",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "eslint": "~7.2.0"
+  },
+  "workspaces": {
+    "packages": [
+      "package_a"
+    ],
+    "nohoist": [
+      "**/react-scripts"
+    ]
+  }
+}
